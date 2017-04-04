@@ -5,8 +5,18 @@
     android:layout_height="match_parent"
     tools:context="com.example.suchada.myapplication.MainActivity">
 
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@drawable/sriwattana"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
     <LinearLayout
-        android:layout_marginTop="@dimen/margin2"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/margin2"
+        android:layout_margin="@dimen/margin"
+        android:background="#86ffffff"
+        android:layout_marginTop="@dimen/margin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -66,10 +76,26 @@
 
         </LinearLayout>
 
+        <TextView
+
+            android:textSize="@dimen/h2"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/new_regist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
 
 
 
     </LinearLayout>
+
+
+
+    <Button
+        android:text="@string/login"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 
 </RelativeLayout>
