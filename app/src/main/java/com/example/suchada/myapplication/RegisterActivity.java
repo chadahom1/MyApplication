@@ -68,7 +68,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                 myAlert.myDialog("Have Space","Please Fill All Blank");
 
             } else {
-
+                // No Space
             }
 
 
