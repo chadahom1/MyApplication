@@ -59,6 +59,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (view== textView) {
             Log.d(tag,"You Click TextView");
 
+            //Create Intent
+
+            Intent intent = new Intent(MainActivity.this,RegisterActivity.class);
+            startActivity(intent);
         }
         // For Button
         if (view == button) {

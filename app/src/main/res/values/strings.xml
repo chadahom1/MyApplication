@@ -5,4 +5,6 @@
     <string name="password">password</string>
     <string name="login">login</string>
     <string name="new_regist">Register</string>
+    <string name="save">Save</string>
+    <string name="save1">save</string>
 </resources>
